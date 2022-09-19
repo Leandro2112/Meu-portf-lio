@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="Pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/formacao.css" type="text/css">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="css/portfolio.css" type="text/css"> -->
-    <title>portfolio</title>
-    
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Importação do Bootstrap através da CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Importação de uma página CSS com estilos pessoais -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <!-- Título da página que irá aparecer na aba -->
+  <title>Portfólio</title>
 </head>
+
 <body>
+  <!-- Header utilizando classes de cores e texto do bootstrap para mostrar o título da pagina -->
   <header class="bg-info">
     <h1 class="h1 text-light">Portfólio</h1>
   </header>
+  <!-- Navbar que contém os links de navegação do site -->
   <nav class="bg-primary">
     <ul>
-     <li><a href="home.html" class="text-light">Home</a></li>
-     <li><a href="hobby.html" class="text-light">Hobby</a></li>
-     <li><a href="formacao.html" class="text-light">Formação</a></li>
-     <li><a href="portfolio.html" class="text-light">Portfólio</a></li>
-     <li><a href="contato.html" class="text-light">Contato</a></li> 
-        
+      <li><a href="home.html" class="text-light">Home</a></li>
+      <li><a href="hobby.html" class="text-light">Hobby</a></li>
+      <li><a href="formacao.html" class="text-light">Formação</a></li>
+      <li><a href="portfolio.html" class="text-light">Portfólio</a></li>
+      <li><a href="contato.html" class="text-light">Contato</a></li>
+
     </ul>
-  </nav> 
-  <div class="d-flex justify-content-center bg-light"> 
+  </nav>
+
+  <!-- Conteúdo principal da página -->
+  <div class="d-flex justify-content-center bg-light">
     <article class="card p-4 mt-4 mb-4">
       <h1>Meu Portfólio</h1>
-      <h3>Página em construção</h3>
+      <p>O link abaixo contém meu Github onde está localizado meu portfólio pessoal e todos meus projetos</p>
+      <!-- Div criada para alinhar o ícone do Github e do link da página -->
+      <div class="d-flex align-items-center">
+        <img src="./imagens/github.png" alt="github">
+        <a href="https://github.com/Leandro2112" target="_blank" class="ml-4">Leandro2112</a>
+      </div>
     </article>
   </div>
 
+  <!-- Footer utilizando biblioteca do bootstrap para cores e padding -->
   <footer class="bg-info p-4">
     <dl>
       <dt class="text-light">Atividade Prática</dt>
-      <br/>
+      <br />
       <dt class="text-light"> Ferramentas de Desenvolvimento Web</dt>
     </dl>
   </footer>
-     
+
 </body>
+
 </html>
