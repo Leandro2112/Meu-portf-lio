@@ -1,0 +1,28 @@
+
+
+
+div h1, h2 {
+    font-size: 30px;
+    color: black
+    
+    
+    
+}
+div p {
+    font-size: 20px;
+    font-family: 'comic sans',cursive;
+        text-align: justify;
+        
+    
+        
+}
+footer {
+    padding: 20px;
+    background: rgb(17, 0, 255);
+    color: white;
+    margin-top: 100px;
+    }
+    footer {
+        color: white;
+        background-color: blue;
+    }
